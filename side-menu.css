@@ -81,7 +81,7 @@ body{
 .main-content{
     flex:1;
     padding:40px;
-    background-image: url(_Background.png);
+    background:url(_Background.png);
 }
 
 .main-content h1{
