@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categories</title>
+
+    <link rel="stylesheet" href="../side-menu.css">
+</head>
+
+<body>
+
+    <!-- SIDEBAR -->
+    <div class="sidebar" id="sidebar">
+
+        <div class="logo">
+            <img src="../Logo.png" alt="CodeCrave Logo" class="sidebar-logo">
+            <span>CodeCrave</span>
+        </div>
+
+        <div class="menu-group">
+            <h4>Main Navigation</h4>
+
+            <a href="Home.html" class="menu-link">🏠 Home</a>
+            <a href="Products.html" class="menu-link">📦 Products</a>
+            <a href="Categories.html" class="menu-link">📂 Categories</a>
+        </div>
+
+        <div class="menu-group">
+            <h4>Shopping</h4>
+
+            <a href="Cart.html" class="menu-link">
+                🛒 Cart
+                <span class="cart-count" id="cartCount">0</span>
+            </a>
+
+            <a href="My Orders.html" class="menu-link active">
+                📋 My Orders
+            </a>
+
+            <a href="Wishlist.html" class="menu-link">❤️ Wishlist</a>
+        </div>
+
+        <div class="menu-group">
+            <h4>Account</h4>
+
+            <a href="Profile.html" class="menu-link">👤 Profile</a>
+            <a href="Setting.html" class="menu-link">⚙️ Settings</a>
+        </div>
+
+        <div class="menu-group">
+            <h4>System</h4>
+            <a href="#" id="logoutBtn">🚪 Logout</a>
+        </div>
+
+    </div>
+
+
+    <!-- MAIN CONTENT -->
+    <div class="main-content">
+
+        <button class="toggle-btn" id="toggleBtn">☰</button>
+
+        <!-- DITO MISMO ANG EXISTING ORDERS CONTENT MO -->
+
+        <section id="orders" class="content-section active-section">
+
+            <h1>📋 My Orders</h1>
+
+            <div class="cards">
+
+                <div class="order-card">
+                    <h3>Order #CC001</h3>
+
+                    <p>
+                        Product: Mechanical Keyboard
+                    </p>
+
+                    <span class="status delivered">
+                        Delivered
+                    </span>
+
+                    <h3>₱1,899</h3>
+                </div>
+
+                <div class="order-card">
+                    <h3>Order #CC002</h3>
+
+                    <p>
+                        Product: Gaming Mouse
+                    </p>
+
+                    <span class="status shipped">
+                        Shipped
+                    </span>
+
+                    <h3>₱999</h3>
+                </div>
+
+                <div class="order-card">
+                    <h3>Order #CC003</h3>
+
+                    <p>
+                        Product: Coding Headset
+                    </p>
+
+                    <span class="status pending">
+                        Pending
+                    </span>
+
+                    <h3>₱1,499</h3>
+                </div>
+
+            </div>
+
+        </section>
+
+    </div>
+
+    <script src="../side-menu.js"></script>
+
+</body>

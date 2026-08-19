@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CodeCrave</title>
+
+    <link rel="stylesheet" href="side-menu.css">
+</head>
+
+<body>
+
+    <div class="sidebar" id="sidebar">
+
+        <div class="logo">
+            <img src="Logo.png" alt="CodeCrave Logo" class="sidebar-logo">
+            <span>CodeCrave</span>
+        </div>
+
+        <div class="menu-group">
+
+            <h4>Main Navigation</h4>
+
+            <a href="Side-menu contents/Home.html" class="menu-link active">
+                🏠 Home
+            </a>
+
+            <a href="Side-menu contents/Products.html" class="menu-link">
+                📦 Products
+            </a>
+
+            <a href="Side-menu contents/Categories.html" class="menu-link">
+                📂 Categories
+            </a>
+
+        </div>
+
+        <div class="menu-group">
+
+            <h4>Shopping</h4>
+
+            <a href="Side-menu contents/Cart.html" class="menu-link">
+                🛒 Cart
+                <span class="cart-count" id="cartCount">0</span>
+            </a>
+
+            <a href="Side-menu contents/My Orders.html" class="menu-link">
+                📋 My Orders
+            </a>
+
+            <a href="Side-menu contents/Wishlist.html" class="menu-link">
+                ❤️ Wishlist
+            </a>
+
+        </div>
+
+        <div class="menu-group">
+
+            <h4>Account</h4>
+
+            <a href="Side-menu contents/Profile.html" class="menu-link">
+                👤 Profile
+            </a>
+
+            <a href="Side-menu contents/Setting.html" class="menu-link">
+                ⚙️ Settings
+            </a>
+
+        </div>
+
+        <div class="menu-group">
+
+            <h4>System</h4>
+
+            <a href="#" id="logoutBtn">
+                🚪 Logout
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="main-content">
+
+        <button class="toggle-btn" id="toggleBtn">☰</button>
+
+
+        <section id="home" class="content-section active-section">
+
+            <div class="hero">
+
+                <img src="Logo.png"
+                     alt="CodeCrave Logo"
+                     class="hero-logo">
+
+                <h1>Welcome to CodeCrave!</h1>
+
+                <p class="tagline">
+                    DevFuel Code Crave is your smart online marketplace
+                    designed to make shopping easier, faster, and more enjoyable.
+                    From discovering quality products to managing orders, carts,
+                    and wishlists, our platform combines technology, convenience,
+                    and a seamless digital shopping experience for every customer.
+                </p>
+
+            </div>
+
+            
+            <h2 class="section-title">
+                Featured Products
+            </h2>
+
+
+            <div class="cards">
+
+                <div class="card">
+
+                    <h3>⌨️ Mechanical Keyboard</h3>
+
+                    <p>
+                        A stylish and responsive keyboard perfect
+                        for coding and gaming.
+                    </p>
+
+                    <strong>₱1,899</strong>
+
+                </div>
+
+
+                <div class="card">
+
+                    <h3>🖱️ Gaming Mouse</h3>
+
+                    <p>
+                        Fast and accurate mouse designed for
+                        productivity and gaming.
+                    </p>
+
+                    <strong>₱999</strong>
+
+                </div>
+
+
+                <div class="card">
+
+                    <h3>🎧 Coding Headset</h3>
+
+                    <p>
+                        Comfortable headset for coding,
+                        meetings, and entertainment.
+                    </p>
+
+                    <strong>₱1,499</strong>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </div>
+
+
+    <script src="side-menu.js"></script>
+
+</body>
+</html>

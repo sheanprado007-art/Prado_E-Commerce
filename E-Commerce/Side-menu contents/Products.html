@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - CodeCrave</title>
+    <link rel="stylesheet" href="../side-menu.css">
+</head>
+
+<body>
+
+    <div class="sidebar" id="sidebar">
+
+        <div class="logo">
+            <img src="../Logo.png" alt="CodeCrave Logo" class="sidebar-logo">
+            <span>CodeCrave</span>
+        </div>
+
+        <div class="menu-group">
+
+            <h4>Main Navigation</h4>
+
+            <a href="Home.html" class="menu-link">
+                🏠 Home
+            </a>
+
+            <a href="Products.html" class="menu-link active">
+                📦 Products
+            </a>
+
+            <a href="Categories.html" class="menu-link">
+                📂 Categories
+            </a>
+
+        </div>
+
+        <div class="menu-group">
+
+            <h4>Shopping</h4>
+
+            <a href="Cart.html" class="menu-link">
+                🛒 Cart
+                <span class="cart-count" id="cartCount">0</span>
+            </a>
+
+            <a href="My Orders.html" class="menu-link">
+                📋 My Orders
+            </a>
+
+            <a href="Wishlist.html" class="menu-link">
+                ❤️ Wishlist
+            </a>
+
+        </div>
+
+        <div class="menu-group">
+
+            <h4>Account</h4>
+
+            <a href="Profile.html" class="menu-link">
+                👤 Profile
+            </a>
+
+            <a href="Setting.html" class="menu-link">
+                ⚙️ Settings
+            </a>
+
+        </div>
+
+        <div class="menu-group">
+
+            <h4>System</h4>
+
+            <a href="#" id="logoutBtn">
+                🚪 Logout
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="main-content">
+
+        <button class="toggle-btn" id="toggleBtn">
+            ☰
+        </button>
+
+        <section id="products" class="content-section active-section">
+
+            <h1>📦 Products</h1>
+
+            <p class="section-description">
+                Browse our available tech products.
+            </p>
+
+            <div class="cards">
+
+                <div class="product-card">
+
+                    <div class="product-icon">
+                        ⌨️
+                    </div>
+
+                    <h3>Mechanical Keyboard</h3>
+
+                    <p>
+                        RGB mechanical keyboard with
+                        responsive switches.
+                    </p>
+
+                    <h2>₱1,899</h2>
+
+                    <button class="action-btn add-cart"
+                            data-product="Mechanical Keyboard">
+                        Add to Cart
+                    </button>
+
+                </div>
+
+
+                <div class="product-card">
+
+                    <div class="product-icon">
+                        🖱️
+                    </div>
+
+                    <h3>Gaming Mouse</h3>
+
+                    <p>
+                        High precision mouse suitable
+                        for gaming and coding.
+                    </p>
+
+                    <h2>₱999</h2>
+
+                    <button class="action-btn add-cart"
+                            data-product="Gaming Mouse">
+                        Add to Cart
+                    </button>
+
+                </div>
+
+
+                <div class="product-card">
+
+                    <div class="product-icon">
+                        🎧
+                    </div>
+
+                    <h3>Coding Headset</h3>
+
+                    <p>
+                        Comfortable headset with
+                        clear audio quality.
+                    </p>
+
+                    <h2>₱1,499</h2>
+
+                    <button class="action-btn add-cart"
+                            data-product="Coding Headset">
+                        Add to Cart
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </div>
+
+
+    <script src="../side-menu.js"></script>
+
+</body>
+</html>

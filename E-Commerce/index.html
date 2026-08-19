@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="background">
+    <div class="circle"></div>
+    <div class="circle"></div>
+    </div>
+
+<div class="container">
+    <form id="loginForm" class="login-box">
+
+        <div class="brand">
+            <img src="Logo.png" alt="CodeCrave Logo" class="logo">
+        <h2>CodeCrave</h2>
+
+        </div>
+
+        <label for="username">Username or Email</label>
+        <input type="text" id="username" placeholder="Enter username or email">
+        <small id="userError" class="error"></small>
+
+        <label for="password">Password</label>
+
+        <div class="password-box">
+            <input type="password" id="password" placeholder="Enter password">
+            <button type="button" id="togglePassword">Show</button>
+        </div>
+
+        <small id="passError" class="error"></small>
+
+        <div class="options">
+            <label>
+                <input type="checkbox">
+                Remember Me
+            </label>
+
+            <a href="#" id="forgotPassword">Forgot Password?</a>
+        </div>
+
+        <button type="submit" class="login-btn">Login</button>
+
+        <p class="signup">
+            Don't have an account?
+            <a href="#" id="signUp">Sign Up</a>
+        </p>
+
+        <p id="message"></p>
+
+    </form>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
